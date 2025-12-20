@@ -1,0 +1,19 @@
+# IDE directories
+.mvn
+
+#.idea stuff to ignore
+.idea/workspace.xml
+.idea/usage.statistics.xml
+*.iml
+shelf/
+# additional java files for stand-alone jar file creation (may change later)
+
+classes
+jmods
+lib
+output
+
+#general files
+/*.class
+
+
