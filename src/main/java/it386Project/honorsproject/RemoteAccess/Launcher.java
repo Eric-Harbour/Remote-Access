@@ -1,11 +1,15 @@
 package it386Project.honorsproject.RemoteAccess;
 
+import it386Project.honorsproject.RemoteAccess.UI.RMIApp;
 import javafx.application.Application;
 
 public class Launcher{
+
+
     static void main(String[] args) {
-        //Application.launch(RMIApplication.class, args);
-        Application.launch(RMIWelcomeScreen.class, args);
+
+        Application.launch(RMIApp.class, args);
+
     }
 
 }
