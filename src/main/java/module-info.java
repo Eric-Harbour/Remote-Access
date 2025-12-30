@@ -13,6 +13,7 @@ module it386Project.honorsproject.RemoteAccess {
     exports it386Project.honorsproject.RemoteAccess;
     exports it386Project.RMI;
     opens it386Project.RMI to javafx.fxml;
+    exports it386Project.honorsproject.RemoteAccess.UI;
 
 
     //exports it386Project.honorsproject.RemoteAccess.RMIClient;
